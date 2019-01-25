@@ -12,7 +12,7 @@ pipeline {
 
             steps {
                 sh 'ruby -v'
-                sh 'ls -alh /'
+                sh 'ls -alh /work/'
             }
         }
     }
